@@ -1,0 +1,54 @@
+body {
+    font-family: monospace; /* Keeps the retro font */
+    background-color: #fafafa; /* Very light grey to reduce glare */
+    color: #2e2e2e; /* Slightly softer than black for less harsh contrast */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    background-color: #d8bfbf; /* Soft pastel-like background for sections, easier on the eyes */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: underline; /* Maintains retro underline for links */
+    color: #0057b7; /* A softer blue for links, easier on the eyes */
+}
+
+a:hover {
+    color: #d62d20; /* Softer red on hover for links */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em; /* Keeps footer text smaller */
+}
+
+.motto {
+    background-color: #e6d3d3; /* A soft, muted pink that fits the retro, warm aesthetic */
+    color: #2e2e2e; /* Soft dark grey for text, matching the body text for consistency */
+    font-style: italic; /* A touch of emphasis to differentiate the motto */
+    padding: 10px 20px; /* Adequate padding for visual separation and readability */
+    margin: 20px 0; /* Adds some space around the motto section */
+    border-left: 5px solid #c7a0a0; /* A thematic accent to tie it back to the section colors */
+    font-size: 0.95em; /* Slightly smaller font size for subtlety */
+}
+
+.motto strong {
+    font-style: normal; /* Override italics for the "Motto:" part for emphasis */
+    color: #333; /* Slightly darker for the word 'Motto' to stand out */
+}
